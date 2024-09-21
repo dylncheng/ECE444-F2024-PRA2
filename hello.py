@@ -12,4 +12,4 @@ def index():
 
 @app.route('/user/<name>')
 def user(name):
-    return render_template('user.html', name=name, current_time=datetime.now())
+    return render_template('user.html', name=name, current_time=datetime.utcnow())
