@@ -1,4 +1,4 @@
-Flasky
+PRA2 UofT ECE444 Software Engineering
 ======
 
 This repo is a clone of: https://github.com/miguelgrinberg/flasky
