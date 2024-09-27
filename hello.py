@@ -37,7 +37,7 @@ def index():
     email = session.get('email')
     email_partitioned = email.split('.') if email else []
 
-    if 'utoronto' not in email_partitioned:
+    if email and 'utoronto' not in email_partitioned:
         welcome_message += "Please use your UofT email."
     elif email:
         welcome_message += f"Your UofT email is {email}"
